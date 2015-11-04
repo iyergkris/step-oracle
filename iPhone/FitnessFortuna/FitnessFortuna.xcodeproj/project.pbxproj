@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AA0FDDF1BE9A3FD00899575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0FDDE1BE9A3FD00899575 /* AppDelegate.swift */; };
+		3AA0FDE11BE9A3FD00899575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0FDE01BE9A3FD00899575 /* ViewController.swift */; };
+		3AA0FDE41BE9A3FD00899575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0FDE21BE9A3FD00899575 /* Main.storyboard */; };
+		3AA0FDE61BE9A3FD00899575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0FDE51BE9A3FD00899575 /* Assets.xcassets */; };
+		3AA0FDE91BE9A3FD00899575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0FDE71BE9A3FD00899575 /* LaunchScreen.storyboard */; };
+		3AA0FDF41BE9A3FD00899575 /* FitnessFortunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0FDF31BE9A3FD00899575 /* FitnessFortunaTests.swift */; };
+		3AA0FDFF1BE9A3FD00899575 /* FitnessFortunaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0FDFE1BE9A3FD00899575 /* FitnessFortunaUITests.swift */; };
+		3AA0FE041BE9A3FD00899575 /* FitnessFortuna WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3AA0FE031BE9A3FD00899575 /* FitnessFortuna WatchKit App.app */; };
+		3AA0FE0A1BE9A3FD00899575 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0FE081BE9A3FD00899575 /* Interface.storyboard */; };
+		3AA0FE0C1BE9A3FD00899575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0FE0B1BE9A3FD00899575 /* Assets.xcassets */; };
+		3AA0FE131BE9A3FD00899575 /* FitnessFortuna WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AA0FE121BE9A3FD00899575 /* FitnessFortuna WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3AA0FE1A1BE9A3FD00899575 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0FE191BE9A3FD00899575 /* InterfaceController.swift */; };
+		3AA0FE1C1BE9A3FD00899575 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0FE1B1BE9A3FD00899575 /* ExtensionDelegate.swift */; };
+		3AA0FE1E1BE9A3FD00899575 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0FE1D1BE9A3FD00899575 /* NotificationController.swift */; };
+		3AA0FE201BE9A3FD00899575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0FE1F1BE9A3FD00899575 /* Assets.xcassets */; };
+		3AA0FE361BE9A48900899575 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA0FE351BE9A48900899575 /* HealthKit.framework */; };
+		3AA0FE3C1BE9A5A200899575 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA0FE3B1BE9A5A200899575 /* CocoaAsyncSocket.framework */; };
+		3AA0FE411BE9A5F400899575 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA0FE371BE9A49500899575 /* HealthKit.framework */; };
+		3AFC566F1BE9E33300762F8B /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC566E1BE9E33300762F8B /* splash.png */; };
+		C6BA22FFBE33AF3229C52552 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53CFD716E4EB70223F074E /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AA0FDF01BE9A3FD00899575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA0FDD31BE9A3FD00899575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AA0FDDA1BE9A3FD00899575;
+			remoteInfo = FitnessFortuna;
+		};
+		3AA0FDFB1BE9A3FD00899575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA0FDD31BE9A3FD00899575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AA0FDDA1BE9A3FD00899575;
+			remoteInfo = FitnessFortuna;
+		};
+		3AA0FE051BE9A3FD00899575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA0FDD31BE9A3FD00899575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AA0FE021BE9A3FD00899575;
+			remoteInfo = "FitnessFortuna WatchKit App";
+		};
+		3AA0FE141BE9A3FD00899575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA0FDD31BE9A3FD00899575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AA0FE111BE9A3FD00899575;
+			remoteInfo = "FitnessFortuna WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AA0FE271BE9A3FD00899575 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3AA0FE131BE9A3FD00899575 /* FitnessFortuna WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FE2B1BE9A3FD00899575 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3AA0FE041BE9A3FD00899575 /* FitnessFortuna WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3AA0FDDB1BE9A3FD00899575 /* FitnessFortuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessFortuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA0FDDE1BE9A3FD00899575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AA0FDE01BE9A3FD00899575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AA0FDE31BE9A3FD00899575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AA0FDE51BE9A3FD00899575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AA0FDE81BE9A3FD00899575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AA0FDEA1BE9A3FD00899575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA0FDEF1BE9A3FD00899575 /* FitnessFortunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessFortunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA0FDF31BE9A3FD00899575 /* FitnessFortunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessFortunaTests.swift; sourceTree = "<group>"; };
+		3AA0FDF51BE9A3FD00899575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA0FDFA1BE9A3FD00899575 /* FitnessFortunaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessFortunaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA0FDFE1BE9A3FD00899575 /* FitnessFortunaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessFortunaUITests.swift; sourceTree = "<group>"; };
+		3AA0FE001BE9A3FD00899575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA0FE031BE9A3FD00899575 /* FitnessFortuna WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitnessFortuna WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA0FE091BE9A3FD00899575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3AA0FE0B1BE9A3FD00899575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AA0FE0D1BE9A3FD00899575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA0FE121BE9A3FD00899575 /* FitnessFortuna WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FitnessFortuna WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA0FE181BE9A3FD00899575 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3AA0FE191BE9A3FD00899575 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3AA0FE1B1BE9A3FD00899575 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3AA0FE1D1BE9A3FD00899575 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3AA0FE1F1BE9A3FD00899575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AA0FE211BE9A3FD00899575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA0FE351BE9A48900899575 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		3AA0FE371BE9A49500899575 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AA0FE391BE9A4A100899575 /* FitnessFortuna.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FitnessFortuna.entitlements; sourceTree = "<group>"; };
+		3AA0FE3A1BE9A4AA00899575 /* FitnessFortuna WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "FitnessFortuna WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		3AA0FE3B1BE9A5A200899575 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = "Pods/../build/Debug-iphoneos/CocoaAsyncSocket.framework"; sourceTree = "<group>"; };
+		3AA0FE3D1BE9A5C100899575 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = "Pods/../build/Debug-iphoneos/CocoaAsyncSocket.framework"; sourceTree = "<group>"; };
+		3AA0FE3F1BE9A5C600899575 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
+		3AFC566E1BE9E33300762F8B /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = SOURCE_ROOT; };
+		98028D9FBE7CD535646C8FFD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A61BB9BA158AB46EFEECED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EE53CFD716E4EB70223F074E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AA0FDD81BE9A3FD00899575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA0FE3C1BE9A5A200899575 /* CocoaAsyncSocket.framework in Frameworks */,
+				3AA0FE361BE9A48900899575 /* HealthKit.framework in Frameworks */,
+				C6BA22FFBE33AF3229C52552 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FDEC1BE9A3FD00899575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FDF71BE9A3FD00899575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FE0F1BE9A3FD00899575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA0FE411BE9A5F400899575 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA0FDD21BE9A3FD00899575 = {
+			isa = PBXGroup;
+			children = (
+				3AA0FE371BE9A49500899575 /* HealthKit.framework */,
+				3AA0FE351BE9A48900899575 /* HealthKit.framework */,
+				3AA0FDDD1BE9A3FD00899575 /* FitnessFortuna */,
+				3AA0FDF21BE9A3FD00899575 /* FitnessFortunaTests */,
+				3AA0FDFD1BE9A3FD00899575 /* FitnessFortunaUITests */,
+				3AA0FE071BE9A3FD00899575 /* FitnessFortuna WatchKit App */,
+				3AA0FE161BE9A3FD00899575 /* FitnessFortuna WatchKit Extension */,
+				3AA0FDDC1BE9A3FD00899575 /* Products */,
+				940C0EFE6A9A4B5BA5895BD2 /* Pods */,
+				BB4DF04F0B8CA16915EB8D2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AA0FDDC1BE9A3FD00899575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0FDDB1BE9A3FD00899575 /* FitnessFortuna.app */,
+				3AA0FDEF1BE9A3FD00899575 /* FitnessFortunaTests.xctest */,
+				3AA0FDFA1BE9A3FD00899575 /* FitnessFortunaUITests.xctest */,
+				3AA0FE031BE9A3FD00899575 /* FitnessFortuna WatchKit App.app */,
+				3AA0FE121BE9A3FD00899575 /* FitnessFortuna WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA0FDDD1BE9A3FD00899575 /* FitnessFortuna */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0FE391BE9A4A100899575 /* FitnessFortuna.entitlements */,
+				3AA0FDDE1BE9A3FD00899575 /* AppDelegate.swift */,
+				3AA0FDE01BE9A3FD00899575 /* ViewController.swift */,
+				3AA0FDE21BE9A3FD00899575 /* Main.storyboard */,
+				3AA0FDE51BE9A3FD00899575 /* Assets.xcassets */,
+				3AA0FDE71BE9A3FD00899575 /* LaunchScreen.storyboard */,
+				3AFC566E1BE9E33300762F8B /* splash.png */,
+				3AA0FDEA1BE9A3FD00899575 /* Info.plist */,
+			);
+			path = FitnessFortuna;
+			sourceTree = "<group>";
+		};
+		3AA0FDF21BE9A3FD00899575 /* FitnessFortunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0FDF31BE9A3FD00899575 /* FitnessFortunaTests.swift */,
+				3AA0FDF51BE9A3FD00899575 /* Info.plist */,
+			);
+			path = FitnessFortunaTests;
+			sourceTree = "<group>";
+		};
+		3AA0FDFD1BE9A3FD00899575 /* FitnessFortunaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0FDFE1BE9A3FD00899575 /* FitnessFortunaUITests.swift */,
+				3AA0FE001BE9A3FD00899575 /* Info.plist */,
+			);
+			path = FitnessFortunaUITests;
+			sourceTree = "<group>";
+		};
+		3AA0FE071BE9A3FD00899575 /* FitnessFortuna WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0FE081BE9A3FD00899575 /* Interface.storyboard */,
+				3AA0FE0B1BE9A3FD00899575 /* Assets.xcassets */,
+				3AA0FE0D1BE9A3FD00899575 /* Info.plist */,
+			);
+			path = "FitnessFortuna WatchKit App";
+			sourceTree = "<group>";
+		};
+		3AA0FE161BE9A3FD00899575 /* FitnessFortuna WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0FE3A1BE9A4AA00899575 /* FitnessFortuna WatchKit Extension.entitlements */,
+				3AA0FE191BE9A3FD00899575 /* InterfaceController.swift */,
+				3AA0FE1B1BE9A3FD00899575 /* ExtensionDelegate.swift */,
+				3AA0FE1D1BE9A3FD00899575 /* NotificationController.swift */,
+				3AA0FE1F1BE9A3FD00899575 /* Assets.xcassets */,
+				3AA0FE211BE9A3FD00899575 /* Info.plist */,
+				3AA0FE171BE9A3FD00899575 /* Supporting Files */,
+			);
+			path = "FitnessFortuna WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3AA0FE171BE9A3FD00899575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0FE181BE9A3FD00899575 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		940C0EFE6A9A4B5BA5895BD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98028D9FBE7CD535646C8FFD /* Pods.debug.xcconfig */,
+				A0A61BB9BA158AB46EFEECED /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB4DF04F0B8CA16915EB8D2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0FE3F1BE9A5C600899575 /* Pods.framework */,
+				3AA0FE3D1BE9A5C100899575 /* CocoaAsyncSocket.framework */,
+				3AA0FE3B1BE9A5A200899575 /* CocoaAsyncSocket.framework */,
+				EE53CFD716E4EB70223F074E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AA0FDDA1BE9A3FD00899575 /* FitnessFortuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA0FE2C1BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortuna" */;
+			buildPhases = (
+				AE533CDAEBC4EC043E44FAEF /* Check Pods Manifest.lock */,
+				3AA0FDD71BE9A3FD00899575 /* Sources */,
+				3AA0FDD81BE9A3FD00899575 /* Frameworks */,
+				3AA0FDD91BE9A3FD00899575 /* Resources */,
+				3AA0FE2B1BE9A3FD00899575 /* Embed Watch Content */,
+				215162AD65AD55ACBB0E20E9 /* Embed Pods Frameworks */,
+				6149F26929F2B32B67868AFA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AA0FE061BE9A3FD00899575 /* PBXTargetDependency */,
+			);
+			name = FitnessFortuna;
+			productName = FitnessFortuna;
+			productReference = 3AA0FDDB1BE9A3FD00899575 /* FitnessFortuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AA0FDEE1BE9A3FD00899575 /* FitnessFortunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA0FE2F1BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortunaTests" */;
+			buildPhases = (
+				3AA0FDEB1BE9A3FD00899575 /* Sources */,
+				3AA0FDEC1BE9A3FD00899575 /* Frameworks */,
+				3AA0FDED1BE9A3FD00899575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AA0FDF11BE9A3FD00899575 /* PBXTargetDependency */,
+			);
+			name = FitnessFortunaTests;
+			productName = FitnessFortunaTests;
+			productReference = 3AA0FDEF1BE9A3FD00899575 /* FitnessFortunaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AA0FDF91BE9A3FD00899575 /* FitnessFortunaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA0FE321BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortunaUITests" */;
+			buildPhases = (
+				3AA0FDF61BE9A3FD00899575 /* Sources */,
+				3AA0FDF71BE9A3FD00899575 /* Frameworks */,
+				3AA0FDF81BE9A3FD00899575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AA0FDFC1BE9A3FD00899575 /* PBXTargetDependency */,
+			);
+			name = FitnessFortunaUITests;
+			productName = FitnessFortunaUITests;
+			productReference = 3AA0FDFA1BE9A3FD00899575 /* FitnessFortunaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3AA0FE021BE9A3FD00899575 /* FitnessFortuna WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA0FE281BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortuna WatchKit App" */;
+			buildPhases = (
+				3AA0FE011BE9A3FD00899575 /* Resources */,
+				3AA0FE271BE9A3FD00899575 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AA0FE151BE9A3FD00899575 /* PBXTargetDependency */,
+			);
+			name = "FitnessFortuna WatchKit App";
+			productName = "FitnessFortuna WatchKit App";
+			productReference = 3AA0FE031BE9A3FD00899575 /* FitnessFortuna WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3AA0FE111BE9A3FD00899575 /* FitnessFortuna WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA0FE241BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortuna WatchKit Extension" */;
+			buildPhases = (
+				3AA0FE0E1BE9A3FD00899575 /* Sources */,
+				3AA0FE0F1BE9A3FD00899575 /* Frameworks */,
+				3AA0FE101BE9A3FD00899575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitnessFortuna WatchKit Extension";
+			productName = "FitnessFortuna WatchKit Extension";
+			productReference = 3AA0FE121BE9A3FD00899575 /* FitnessFortuna WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AA0FDD31BE9A3FD00899575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = VI;
+				TargetAttributes = {
+					3AA0FDDA1BE9A3FD00899575 = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					3AA0FDEE1BE9A3FD00899575 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3AA0FDDA1BE9A3FD00899575;
+					};
+					3AA0FDF91BE9A3FD00899575 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3AA0FDDA1BE9A3FD00899575;
+					};
+					3AA0FE021BE9A3FD00899575 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3AA0FE111BE9A3FD00899575 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = TJ323AVCSP;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3AA0FDD61BE9A3FD00899575 /* Build configuration list for PBXProject "FitnessFortuna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AA0FDD21BE9A3FD00899575;
+			productRefGroup = 3AA0FDDC1BE9A3FD00899575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AA0FDDA1BE9A3FD00899575 /* FitnessFortuna */,
+				3AA0FDEE1BE9A3FD00899575 /* FitnessFortunaTests */,
+				3AA0FDF91BE9A3FD00899575 /* FitnessFortunaUITests */,
+				3AA0FE021BE9A3FD00899575 /* FitnessFortuna WatchKit App */,
+				3AA0FE111BE9A3FD00899575 /* FitnessFortuna WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AA0FDD91BE9A3FD00899575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFC566F1BE9E33300762F8B /* splash.png in Resources */,
+				3AA0FDE91BE9A3FD00899575 /* LaunchScreen.storyboard in Resources */,
+				3AA0FDE61BE9A3FD00899575 /* Assets.xcassets in Resources */,
+				3AA0FDE41BE9A3FD00899575 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FDED1BE9A3FD00899575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FDF81BE9A3FD00899575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FE011BE9A3FD00899575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA0FE0C1BE9A3FD00899575 /* Assets.xcassets in Resources */,
+				3AA0FE0A1BE9A3FD00899575 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FE101BE9A3FD00899575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA0FE201BE9A3FD00899575 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		215162AD65AD55ACBB0E20E9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6149F26929F2B32B67868AFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE533CDAEBC4EC043E44FAEF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AA0FDD71BE9A3FD00899575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA0FDE11BE9A3FD00899575 /* ViewController.swift in Sources */,
+				3AA0FDDF1BE9A3FD00899575 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FDEB1BE9A3FD00899575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA0FDF41BE9A3FD00899575 /* FitnessFortunaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FDF61BE9A3FD00899575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA0FDFF1BE9A3FD00899575 /* FitnessFortunaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0FE0E1BE9A3FD00899575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA0FE1E1BE9A3FD00899575 /* NotificationController.swift in Sources */,
+				3AA0FE1C1BE9A3FD00899575 /* ExtensionDelegate.swift in Sources */,
+				3AA0FE1A1BE9A3FD00899575 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AA0FDF11BE9A3FD00899575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AA0FDDA1BE9A3FD00899575 /* FitnessFortuna */;
+			targetProxy = 3AA0FDF01BE9A3FD00899575 /* PBXContainerItemProxy */;
+		};
+		3AA0FDFC1BE9A3FD00899575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AA0FDDA1BE9A3FD00899575 /* FitnessFortuna */;
+			targetProxy = 3AA0FDFB1BE9A3FD00899575 /* PBXContainerItemProxy */;
+		};
+		3AA0FE061BE9A3FD00899575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AA0FE021BE9A3FD00899575 /* FitnessFortuna WatchKit App */;
+			targetProxy = 3AA0FE051BE9A3FD00899575 /* PBXContainerItemProxy */;
+		};
+		3AA0FE151BE9A3FD00899575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AA0FE111BE9A3FD00899575 /* FitnessFortuna WatchKit Extension */;
+			targetProxy = 3AA0FE141BE9A3FD00899575 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AA0FDE21BE9A3FD00899575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA0FDE31BE9A3FD00899575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AA0FDE71BE9A3FD00899575 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA0FDE81BE9A3FD00899575 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3AA0FE081BE9A3FD00899575 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA0FE091BE9A3FD00899575 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AA0FE221BE9A3FD00899575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AA0FE231BE9A3FD00899575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AA0FE251BE9A3FD00899575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FitnessFortuna WatchKit Extension/FitnessFortuna WatchKit Extension.entitlements";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "FitnessFortuna WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.HealthTry.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3AA0FE261BE9A3FD00899575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FitnessFortuna WatchKit Extension/FitnessFortuna WatchKit Extension.entitlements";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "FitnessFortuna WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.HealthTry.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3AA0FE291BE9A3FD00899575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = FitnessFortuna_WatchKit_Extension;
+				INFOPLIST_FILE = "FitnessFortuna WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.HealthTry.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3AA0FE2A1BE9A3FD00899575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = FitnessFortuna_WatchKit_Extension;
+				INFOPLIST_FILE = "FitnessFortuna WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.HealthTry.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3AA0FE2D1BE9A3FD00899575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98028D9FBE7CD535646C8FFD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitnessFortuna/FitnessFortuna.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = FitnessFortuna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.HealthTry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AA0FE2E1BE9A3FD00899575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A61BB9BA158AB46EFEECED /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitnessFortuna/FitnessFortuna.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = FitnessFortuna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.HealthTry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AA0FE301BE9A3FD00899575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FitnessFortunaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.FitnessFortunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessFortuna.app/FitnessFortuna";
+			};
+			name = Debug;
+		};
+		3AA0FE311BE9A3FD00899575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FitnessFortunaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.FitnessFortunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessFortuna.app/FitnessFortuna";
+			};
+			name = Release;
+		};
+		3AA0FE331BE9A3FD00899575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FitnessFortunaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.FitnessFortunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FitnessFortuna;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3AA0FE341BE9A3FD00899575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FitnessFortunaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vi.FitnessFortunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FitnessFortuna;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AA0FDD61BE9A3FD00899575 /* Build configuration list for PBXProject "FitnessFortuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA0FE221BE9A3FD00899575 /* Debug */,
+				3AA0FE231BE9A3FD00899575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA0FE241BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortuna WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA0FE251BE9A3FD00899575 /* Debug */,
+				3AA0FE261BE9A3FD00899575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA0FE281BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortuna WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA0FE291BE9A3FD00899575 /* Debug */,
+				3AA0FE2A1BE9A3FD00899575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA0FE2C1BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA0FE2D1BE9A3FD00899575 /* Debug */,
+				3AA0FE2E1BE9A3FD00899575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA0FE2F1BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA0FE301BE9A3FD00899575 /* Debug */,
+				3AA0FE311BE9A3FD00899575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA0FE321BE9A3FD00899575 /* Build configuration list for PBXNativeTarget "FitnessFortunaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA0FE331BE9A3FD00899575 /* Debug */,
+				3AA0FE341BE9A3FD00899575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AA0FDD31BE9A3FD00899575 /* Project object */;
+}
